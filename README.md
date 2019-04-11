@@ -437,7 +437,7 @@ where($field, $operator, $value) | where('id', '>=', 1) | Filters records accord
 whereIn($field, $value) | where('id', [1, 2, 3]) | Checks if a value is in a set of values. 
 whereNotIn($field, $value) | whereNotIn('id', [1, 2, 3]) | Checks if a value isn't in a set of values. 
 whereBetween($field, $value) | whereBetween('price', [100, 200]) | Checks if a value is in a range.
-whereOrBetween($field, $value) | whereOrBetween('price', [300, 500]) | Checks if a value is in a range.
+whereOrBetween($field, $value) | whereOrBetween('price', [300, 500]) | Checks if a value is include a range.
 whereNotBetween($field, $value) | whereNotBetween('price', [100, 200]) | Checks if a value isn't in a range.
 whereExists($field) | whereExists('unemployed') | Checks if a value is defined.
 whereNotExists($field) | whereNotExists('unemployed') | Checks if a value isn't defined.  
